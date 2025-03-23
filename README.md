@@ -122,12 +122,12 @@ Ensure the following before starting the installation:
 
 ## 🔑 Step 6: Configuring OpenStack Authentication
 
+#### To ensures you have the necessary permissions to interact with OpenStack services:
+
 - **Source the Admin Credentials**:
   ```bash
   source keystonerc_admin
   ```
-This ensures you have the necessary permissions to interact with OpenStack services.
-
 - **Verify authentication**:
   ```bash
   openstack token issue
